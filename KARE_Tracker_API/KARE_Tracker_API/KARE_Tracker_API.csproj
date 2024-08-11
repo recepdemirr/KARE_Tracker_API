@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KARE-Tracker-API.Data\KARE_Tracker_API.Data.csproj" />
+    <ProjectReference Include="..\KARE_Tracker_API.Bussiness\KARE_Tracker_API.Bussiness.csproj" />
   </ItemGroup>
 
 </Project>

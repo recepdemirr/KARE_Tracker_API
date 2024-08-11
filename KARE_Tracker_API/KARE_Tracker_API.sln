@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KARE_Tracker_API.Data", "KA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KARE_Tracker_API.Repository", "KARE_Tracker_API.Repository\KARE_Tracker_API.Repository.csproj", "{DD32361F-2F4F-4FCE-83DF-0C6EB0EBB9DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KARE_Tracker_API.Bussiness", "KARE_Tracker_API.Bussiness\KARE_Tracker_API.Bussiness.csproj", "{B66ECE4F-86F8-4C79-9E19-4FFB87B4D14F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DD32361F-2F4F-4FCE-83DF-0C6EB0EBB9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD32361F-2F4F-4FCE-83DF-0C6EB0EBB9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD32361F-2F4F-4FCE-83DF-0C6EB0EBB9DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66ECE4F-86F8-4C79-9E19-4FFB87B4D14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66ECE4F-86F8-4C79-9E19-4FFB87B4D14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66ECE4F-86F8-4C79-9E19-4FFB87B4D14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66ECE4F-86F8-4C79-9E19-4FFB87B4D14F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

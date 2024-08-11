@@ -1,4 +1,10 @@
+using KARE_Tracker_API.Bussiness.Abstract;
+using KARE_Tracker_API.Bussiness.Concrete;
+using KARE_Tracker_API.Bussiness.Shared.Abstract;
+using KARE_Tracker_API.Bussiness.Shared.Concrete;
 using KARE_Tracker_API.Data;
+using KARE_Tracker_API.Repository.Shared.Abstract;
+using KARE_Tracker_API.Repository.Shared.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,7 +16,10 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IStatusService, StatusService>();
 
 var app = builder.Build();
 
