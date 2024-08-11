@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KARE_Tracker_API", "KARE_Tracker_API\KARE_Tracker_API.csproj", "{4093877A-1A29-4AAC-AE2D-6AA90CFF12B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KARE_Tracker_API.Models", "KARE_Tracker_API.Models\KARE_Tracker_API.Models.csproj", "{6E57A2B4-7C89-4FC5-8EFB-F6B3CDA61180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KARE_Tracker_API.Data", "KARE-Tracker-API.Data\KARE_Tracker_API.Data.csproj", "{5BD967E4-A4B1-4BB7-A545-EA4B769A416A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4093877A-1A29-4AAC-AE2D-6AA90CFF12B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4093877A-1A29-4AAC-AE2D-6AA90CFF12B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4093877A-1A29-4AAC-AE2D-6AA90CFF12B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E57A2B4-7C89-4FC5-8EFB-F6B3CDA61180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E57A2B4-7C89-4FC5-8EFB-F6B3CDA61180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E57A2B4-7C89-4FC5-8EFB-F6B3CDA61180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E57A2B4-7C89-4FC5-8EFB-F6B3CDA61180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD967E4-A4B1-4BB7-A545-EA4B769A416A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD967E4-A4B1-4BB7-A545-EA4B769A416A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD967E4-A4B1-4BB7-A545-EA4B769A416A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD967E4-A4B1-4BB7-A545-EA4B769A416A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
